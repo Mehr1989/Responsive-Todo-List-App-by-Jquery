@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    align-items: center;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-moraine-lake-banff-national-park-alberta-canada_131985-98.jpg?w=2000);
+    background-repeat: none;
+    background-size: 100% 100vh;
+    justify-content: center;
+    
+}
+
+.container{
+    background-color: aliceblue;
+    width: 50%;
+    height: 80vh;
+    opacity: 0.8;
+    margin-top: 5rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+    
+}
+.txtb{
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid rgb(124, 120, 120);
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;  
+    background-color: rgb(190, 190, 183);
+    margin-top: 3rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+h3{
+    margin: 10px 0;
+}
+
+.task{
+    width: 38%;
+    background-color: rgb(194, 175, 148);
+    padding: 18px;
+    margin: 6px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 18px;
+    
+  
+}
+
+.task i{
+    float: right;
+    margin-left: 2rem;
+    cursor: pointer;
+    
+}
+.comp{
+    background-color: rgb(78, 68, 68);
+    color: beige;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.notcomp{
+    background-color: rgb(85, 81, 81);
+    color: beige;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+     
+}
+.attach-comp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.attach-notcomp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.trash{
+    font-size: 20px;
+}
+
+.checked{
+    font-size: 20px;
+    
+}
